@@ -5,10 +5,15 @@ We recommend every repository include a README, LICENSE, and .gitignore.
 …or create a new repository on the command line
 
 $> echo "# samirrepository" >> README.md
+
 $> git init
+
 $> git add README.md
+
 $> git commit -m "first commit"
+
 $> git remote add origin git@github.com:samir2614/samirrepository.git
+
 $> git push -u origin master
 
 …or push an existing repository from the command line
