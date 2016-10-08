@@ -1,0 +1,15 @@
+   14  sudo apt-get install git
+   15  clear
+   16  git config --global user.name "samir2614"
+   17  git config --global user.email "samir.dasmohapatra@gmail.com"
+   18  pwd
+   19  mkdir GitJavaProject
+   20  mkdir samir_git_repo
+   23  cd samir_git_repo/
+
+   24  echo "# samir_git_repo" >> README.md
+   25  git init
+   26  git add README.md
+   27  git commit -m "first commit"
+   30  git remote add origin https://github.com/samir2614/samir_git_repo.git
+   32  git push -u origin master
